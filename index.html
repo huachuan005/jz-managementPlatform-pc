@@ -6,14 +6,12 @@
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>贵州省2020年脱贫攻坚“七一”表彰大会</title>
-  <link rel="icon" type="image/GIF" href="https://mstatic.gzstv.com/static/images/favicon_2019.ico">
+  <title>管理平台</title>
+  <link rel="icon" type="image/GIF" href="./images/favicon.ico">
   <link rel="stylesheet" href="./css/reset.min.css">
-  <link rel="stylesheet" href="https://mstatic.gzstv.com/static/resource/js/videojs/video-js.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/bootstrap-table/1.16.0/bootstrap-table.min.css">
   <link rel="stylesheet" href="./css/index.css">
-  <script type="text/javascript" src="https://mstatic.gzstv.com/static/lib/jquery-1.9.1/jquery.min.js"></script>
-  <script src="./js/video.min.js"></script>
-  <script src="./js/videojs-contrib-hls.min.js"></script>
 
   <!-- <script src="https://cdn.staticfile.org/vConsole/3.3.2/vconsole.min.js"></script>
   <script>
@@ -22,35 +20,206 @@
 </head>
 
 <body>
-  <!-- <img src="https://mstatic.gzstv.com/media/images/2020/01/09/PxCJp74XoPjZ.png" alt="花边" class="bg-lace"> -->
-  <div class="bg">
-    <!-- <img src="./images/pc-bg.jpg" alt="贵州广播电视台" class="bg-img"> -->
-    <div class="container">
-      <main class="main">
-        <div class="wrapper">
-          <div class="video-wrap">
-            <video muted="false" id="videoPlayExecute"
-              class="video-js vjs-default-skin video-label vjs-big-play-centered" controls preload="auto"
-              webkit-playsinline="true" playsinline="true" x5-playsinline poster="./images/commend.jpg">
-              <source id="liveTv" src="https://qn-live.gzstv.com/icvkuzqj/HDcctv.m3u8" type="application/x-mpegURL">
-              <!-- <source id="liveTv" src="http://212.64.34.165:10001/hls/34020000001320000099_0200000099/34020000001320000099_0200000099_live.m3u8" type="application/x-mpegURL"> -->
-            </video>
-          </div>
-          <div class="news-info">
-            <h2 class="title" title="title">贵州省2020年脱贫攻坚“七一”表彰大会</h2>
-            <div class="unit-info">
-              <p class="unit">贵州广播电视台</p>
-              <!-- <p class="play-count">播放：<span id="playCount">10</span></p> -->
-            </div>
-            <div class="desc">
-              <p></p>
-            </div>
-          </div>
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li class="nav-item" attrrule="rule1">
+        <a class="nav-link" href="###">绩效规则</a>
+      </li>
+      <li class="nav-item" attrrule="rule2">
+        <a class="nav-link" href="###">绩效规则管理</a>
+      </li>
+      <li class="nav-item" attrrule="rule3">
+        <a class="nav-link" href="###">薪酬核算管理</a>
+      </li>
+      <li class="nav-item" attrrule="rule4">
+        <a class="nav-link" href="###">薪酬核算管理查询</a>
+      </li>
+    </ul>
+
+    <div class="rule rule1 GM-none">
+      <h4>绩效规则</h4>
+      <form>
+        <div class="form-group">
+          <ul class="input-box">
+            <li class="input-item">
+              <label for="exampleInputEmail1">姓名：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入姓名">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">民族：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入民族">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">政治面貌：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入政治面貌">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">性别：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入性别">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">入职时间：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入入职时间">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">学历：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入学历">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">岗位：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入岗位">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">职级：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入职级">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">薪档：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入薪档">
+            </li>
+          </ul>
         </div>
-      </main>
+      </form>
+      <p style="font-size: 20px;">绩效规则</p>
+      <p>月固定绩效：薪档</p>
+      <p>月度浮动绩效：月度KPI考核规则（明细）</p>
     </div>
+
+    <div class="rule rule2">
+      <h4>绩效规则管理</h4>
+      <form>
+        <div class="form-group">
+          <ul class="input-box">
+            <li class="input-item">
+              <label for="exampleInputEmail1">名称：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入名称">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">修改人：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入修改人">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">最后修改时间：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入修改时间">
+            </li>
+          </ul>
+        </div>
+      </form>
+      <div>
+        <p>指标列表</p>
+        <ul style="border: 1px solid #000000; padding: 8px;">
+          <li>中支预算达成率 </li>
+          <li>上半年增速 </li>
+          <li>中支月预算达成率 </li>
+          <li>团队月预算达成率 </li>
+          <li>月绩效基数 </li>
+        </ul>
+        <p>规则公式</p>
+        <pre style="border: 1px solid #000000;">
+          (中支预算达成率[<80:0.6;<100:0.8;>=100:1.0;>=110:1.1;>=120:1.2]*0.25+
+          上半年增速[0pt:1.0;1pt:1.1;3pt:1.3;5pt:1.5]*0.25+
+          中支月预算达成率[<80:0.6;<100:0.8;>=100:1.0;>=110:1.1;>=120:1.2]*0.25+
+          团队月预算达成率[<80:0.6;>=80:0.9;>=90:1.0;>=100:1.3;>=110:1.5]*0.25+)*月绩效基数
+        </pre>
+      </div>
+    </div>
+
+    <div class="rule rule3 GM-none">
+      <h4>薪酬核算管理</h4>
+      <form class="rule-management">
+        <div class="form-group">
+          <ul class="input-box">
+            <li class="input-item">
+              <label for="exampleInputEmail1">名称：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入名称">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">核算月份：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入核算月份">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputEmail1">中支预算达成率：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="中支预算达成率">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">上半年增速：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="上半年增速">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">中支月预算达成率：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="中支月预算达成率">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">团队月预算达成率：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="团队月预算达成率">
+            </li>
+          </ul>
+        </div>
+        <button type="submit" class="btn btn-primary">计算</button>
+      </form>
+      <div style="margin: 12px 0;">
+        <table id="fileTable" class="table-sm" data-locale="zh-CN"></table>
+      </div>
+    </div>
+
+    <div class="rule rule4 GM-none">
+      <h4>薪酬核算管理查询</h4>
+      <form class="rule-management">
+        <div class="form-group">
+          <ul class="input-box">
+            <li class="input-item">
+              <label for="exampleInputEmail1">姓名：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入名称">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">月份：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入核算月份">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputEmail1">部门：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入部门">
+            </li>
+            <li class="input-item">
+              <label for="exampleInputPassword1">岗位：</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="请输入岗位">
+            </li>
+          </ul>
+        </div>
+        <button type="submit" class="btn btn-primary">查询</button>
+      </form>
+      <div style="margin: 12px 0;">
+        <table id="fileTable4" class="table-sm" data-locale="zh-CN"></table>
+      </div>
+    </div>
+
   </div>
 
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/bootstrap-table/1.16.0/bootstrap-table.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/bootstrap-table/1.16.0/locale/bootstrap-table-zh-CN.min.js"></script>
   <script type="text/javascript" src="./js/index.js"></script>
 
 </body>
