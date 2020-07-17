@@ -19,7 +19,7 @@ var dataArr = [
     name: "张三",
     department: "安顺中支车险部销售团队",
     base: "2000",
-    coefficient: "1.1规则",
+    coefficient: "1.1 ",
     salary: '4000',
     Attendance: "-100",
     Deduction: "-54.2",
@@ -30,7 +30,7 @@ var dataArr = [
     name: "张三",
     department: "安顺中支车险部销售团队",
     base: "2000",
-    coefficient: "1.1规则",
+    coefficient: "1.1 ",
     salary: '4000',
     Attendance: "-100",
     Deduction: "-54.2",
@@ -41,7 +41,7 @@ var dataArr = [
     name: "张三",
     department: "安顺中支车险部销售团队",
     base: "2000",
-    coefficient: "1.1规则",
+    coefficient: "1.1 ",
     salary: '4000',
     Attendance: "-100",
     Deduction: "-54.2",
@@ -52,7 +52,7 @@ var dataArr = [
     name: "张三",
     department: "安顺中支车险部销售团队",
     base: "2000",
-    coefficient: "1.1规则",
+    coefficient: "1.1 ",
     salary: '4000',
     Attendance: "-100",
     Deduction: "-54.2",
@@ -63,7 +63,7 @@ var dataArr = [
     name: "张三",
     department: "安顺中支车险部销售团队",
     base: "2000",
-    coefficient: "1.1规则",
+    coefficient: "1.1 ",
     salary: '4000',
     Attendance: "-100",
     Deduction: "-54.2",
@@ -74,7 +74,7 @@ var dataArr = [
     name: "张三",
     department: "安顺中支车险部销售团队",
     base: "2000",
-    coefficient: "1.1规则",
+    coefficient: "1.1 ",
     salary: '4000',
     Attendance: "-100",
     Deduction: "-54.2",
@@ -85,7 +85,7 @@ var dataArr = [
     name: "张三",
     department: "安顺中支车险部销售团队",
     base: "2000",
-    coefficient: "1.1规则",
+    coefficient: "1.1 ",
     salary: '4000',
     Attendance: "-100",
     Deduction: "-54.2",
@@ -96,7 +96,7 @@ var dataArr = [
     name: "张三",
     department: "安顺中支车险部销售团队",
     base: "2000",
-    coefficient: "1.1规则",
+    coefficient: "1.1 ",
     salary: '4000',
     Attendance: "-100",
     Deduction: "-54.2",
@@ -107,7 +107,7 @@ var dataArr = [
     name: "张三",
     department: "安顺中支车险部销售团队",
     base: "2000",
-    coefficient: "1.1规则",
+    coefficient: "1.1 ",
     salary: '4000',
     Attendance: "-100",
     Deduction: "-54.2",
@@ -118,7 +118,7 @@ var dataArr = [
     name: "张三",
     department: "安顺中支车险部销售团队",
     base: "2000",
-    coefficient: "1.1规则",
+    coefficient: "1.1 ",
     salary: '4000',
     Attendance: "-100",
     Deduction: "-54.2",
@@ -144,7 +144,8 @@ function loadTableRule3(data) {
         console.log("value", value)
         var button = value;
         var result = "";
-        result += "<button type='button' class='btn btn-primary'>" + button + "</button>";
+        result += button;
+        result += "<button type='button' class='btn btn-primary'>规则</button>";
         return result;
       }
     }, {
@@ -182,7 +183,8 @@ function loadTableRule4(data) {
         console.log("value", value)
         var button = value;
         var result = "";
-        result += "<button type='button' class='btn btn-primary'>" + button + "</button>";
+        result += button;
+        result += "<button type='button' class='btn btn-primary'>规则</button>";
         return result;
       }
     }, {
